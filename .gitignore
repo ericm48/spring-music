@@ -10,12 +10,13 @@ local.properties
 .classpath
 .settings/
 .loadpath
-
+.vscode
 
 target/
 
 .gradle
 build/
+bin/
 
 *.log*
 /classes/
