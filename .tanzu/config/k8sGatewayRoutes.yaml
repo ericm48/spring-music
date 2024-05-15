@@ -3,7 +3,7 @@ kind: HTTPRoute
 metadata:
   name: spring-music-route
   annotations:
-    healthcheck.gslb.tanzu.vmware.com/service: spring-cloud-gateway
+    healthcheck.gslb.tanzu.vmware.com/service: spring-music
     healthcheck.gslb.tanzu.vmware.com/path: /
     healthcheck.gslb.tanzu.vmware.com/port: "8080"
 spec:
